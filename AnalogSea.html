@@ -1,1 +1,31 @@
-AnalogSea.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnalogSea Account Page</title>
+	<meta charset="utf-8" description="This is the account page for AnalogSea">
+	<link rel="stylesheet" type="text/css" href="AnalogSea.css">
+</head>
+<body>
+	<img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png" alt="logo" class="logo">
+
+	<form class="signup-form" action="/signup/" method="post">
+
+		<fieldset name="signup-form">
+
+			<legend>Sign up</legend>
+
+			<label for="email" required>Email</label><input type="email" name="email" id="email" placeholder="foo@bar.com">
+
+			<label for="password" required>Password</label><input type="password" name="password" placeholder="1234passw0rd">
+
+			<button type="submit">Sign Up</button>
+
+			<p class="forgot-password"><a href="/forgot-passwor/new">Forgot Password</a></p>
+	
+		</fieldset>
+	
+	</form>
+	<p class="Log-In">Already have an account?<a href="/login">Log In</a></p>
+
+</body>
+</html>
